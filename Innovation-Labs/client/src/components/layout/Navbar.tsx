@@ -2,6 +2,7 @@ import { Link, useLocation } from "wouter";
 import { Menu, X, MonitorSmartphone, ChevronDown } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Rlogo from "@assets/uploaded_images/Rlogo.png";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +62,8 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="bg-white/10 p-2 rounded-lg backdrop-blur-sm group-hover:bg-white/20 transition-colors">
-              <MonitorSmartphone className="h-6 w-6 text-white" />
+              <img src={Rlogo} alt="Rahret Logo" className="w-10 h-10 object-contain" />
+              //<MonitorSmartphone className="h-6 w-6 text-white" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-display font-bold tracking-tight leading-none">
