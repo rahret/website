@@ -63,7 +63,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="bg-white/10 p-2 rounded-lg backdrop-blur-sm group-hover:bg-white/20 transition-colors">
               <img src={Rlogo} alt="Rahret Logo" className="w-10 h-10 object-contain" />
-              // <MonitorSmartphone className="h-6 w-6 text-white" />
+          {/* <MonitorSmartphone className="h-6 w-6 text-white" /> */}
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-display font-bold tracking-tight leading-none">
